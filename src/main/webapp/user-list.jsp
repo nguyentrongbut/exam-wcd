@@ -16,9 +16,6 @@
 </header>
 <br>
 <div class="container">
-  <div class="text-left mb-3">
-    <a href="<%=request.getContextPath()%>/new" class="btn btn-success">Add New User</a>
-  </div>
   <table class="table table-bordered">
     <thead>
     <tr>
@@ -43,6 +40,9 @@
     </c:forEach>
     </tbody>
   </table>
+  <div class="text-center mb-3">
+    <a href="<%=request.getContextPath()%>/new" class="btn btn-success">Add New Employee</a>
+  </div>
 </div>
 </body>
 </html>

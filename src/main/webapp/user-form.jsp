@@ -32,31 +32,31 @@
                     </c:choose>
 
                     <fieldset class="form-group">
-                        <label>Employee Name</label>
+                        <label class="mt-2">Employee Name</label>
                         <input class="form-control" name="name" required="required" type="text"
                                value="<c:out value='${user.name}'/>">
                     </fieldset>
-                    <fieldset class="form-group">
-                        <label>Employee birthday</label>
+                    <fieldset class="form-group mt-2">
+                        <label class="mt-2">Employee birthday</label>
                         <input class="form-control" name="birthday" required="required" type="text"
                                value="<c:out value='${user.birthday}'/>">
                     </fieldset>
-                    <fieldset class="form-group">
-                        <label>Employee address</label>
+                    <fieldset class="form-group mt-2">
+                        <label class="mt-2">Employee address</label>
                         <input class="form-control" name="address" required="required" type="text"
                                value="<c:out value='${user.address}'/>">
                     </fieldset>
-                    <fieldset class="form-group">
-                        <label>Employee position</label>
+                    <fieldset class="form-group mt-2">
+                        <label class="mt-2">Employee position</label>
                         <input class="form-control" name="position" required="required" type="text"
                                value="<c:out value='${user.position}'/>">
                     </fieldset>
-                    <fieldset class="form-group">
-                        <label>Employee department</label>
+                    <fieldset class="form-group mt-2">
+                        <label class="mt-2">Employee department</label>
                         <input class="form-control" name="department" required="required" type="text"
                                value="<c:out value='${user.department}'/>">
                     </fieldset>
-                    <button type="submit" class="btn btn-success mt-2">Save</button>
+                    <button type="submit" class="btn btn-success mt-2 w-100">Submit</button>
                 </form>
         </div>
     </div>
