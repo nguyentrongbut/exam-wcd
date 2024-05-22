@@ -57,6 +57,7 @@
                                value="<c:out value='${user.department}'/>">
                     </fieldset>
                     <button type="submit" class="btn btn-success mt-2 w-100">Submit</button>
+                    <button type="reset" class="btn btn-success mt-2 w-100">Reset</button>
                 </form>
         </div>
     </div>
